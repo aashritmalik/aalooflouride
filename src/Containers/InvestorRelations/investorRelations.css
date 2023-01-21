@@ -1,0 +1,36 @@
+.gridContainer2 {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    margin-top: 3%;
+}
+
+.gridContainer2 .btn {
+    width: 100%;
+    color: white;
+    background-color: #379237;
+    border: 1px solid white;
+    padding: 5px;
+    font-size: large;
+    text-align: center;
+    border-radius: 0%;
+}
+
+.gridContainer2 .btn:focus {
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+}
+
+@media(max-width:768px) {
+
+    .gridContainer2 {
+        flex-wrap: wrap;
+    }
+
+    .gridContainer2 .btn {
+        width: 50%;
+        font-size: small;
+    }
+}

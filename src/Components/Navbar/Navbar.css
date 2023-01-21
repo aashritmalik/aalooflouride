@@ -1,0 +1,156 @@
+.navbarSection {
+    background-size: cover;
+    /* -webkit-mask-image: linear-gradient(transparent, black);
+    mask-image: linear-gradient(transparent, black); */
+    z-index: -1;
+}
+
+.navbarRow {
+    padding-top: 1%;
+    display: flex;
+    padding-bottom: 30%;
+    z-index: 1;
+}
+
+.companyDetails {
+    display: flex;
+    margin-left: 10%;
+}
+
+.companyLogo {
+    width: 25%;
+}
+
+.companyName {
+    font-size: xx-large;
+    color: #379237;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+}
+
+.navbarMenu {
+    display: flex;
+}
+
+.NavbarOption {
+    color: #379237;
+    font-size: medium;
+    margin-left: 6%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.searchIcon {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8%;
+    width: 5%;
+}
+
+.navbarSection a,
+.mobNavbarOptions a {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 450;
+}
+
+a:hover {
+    color: #379237;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #379237;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+.dropdown:hover .dropbtn {
+    color: #379237;
+    text-decoration: underline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    font-size: large;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    float: none;
+    color: #379237;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: block;
+    text-align: left;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.mobNavbar {
+    display: flex;
+    justify-content: center;
+}
+
+.mobSearchIcon,
+.mobCompanyLogo,
+.mobcollapsibleIcon {
+    width: 30%;
+}
+
+
+.mobNavbarOptions {
+    margin-left: 2%;
+}
+
+.mobOption {
+    margin-bottom: 1%;
+}
+
+.mobSubOption a,
+.mobOption a {
+    font-weight: bold;
+}
+
+.aboutDropdown,
+.investorRelationsDropdown,
+.contactUsDropdown{
+    margin-top: 0.5%;
+}
+
+.mobSubOption {
+    padding: 0.5%;
+    border-left: 2px solid green;
+}
